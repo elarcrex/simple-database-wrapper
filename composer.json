@@ -1,9 +1,5 @@
 {
     "autoload": {
-        "files": [
-            "config/config.php",
-            "helpers/functions.php"
-        ],
         "psr-4": {
             "Elarc\\": "src/"                     
         }       
