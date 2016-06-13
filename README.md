@@ -15,13 +15,13 @@ $post->updated_at = date('Y-m-d H:i:s');
 
 $post->save();
 ```
-tih khan a awlsam em em a ni. Entirna dang pawh
+tih khan a awlsam em em a ni. Entirna dang pawh, update query ai
 
 ```php
 $post = new Post(new Database);
 $post->id = 5;
 
-$post->update();
+$post->save();
 ```
 ```php
 $post = new Post(new Database);
