@@ -22,6 +22,7 @@ $post = new Post(new Database);
 $post->id = 5;
 
 $post->save();
+var_dump($post->find(5));
 ```
 ```php
 $post = new Post(new Database);
