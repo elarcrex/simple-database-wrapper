@@ -8,7 +8,6 @@ $post = new Post(new Database);
 
 /*$post->title = "First post";
 $post->body = "First post body";
-$post->created_at = date('Y-m-d H:i:s');
 $post->updated_at = date('Y-m-d H:i:s');
 $post->save();*/
 
